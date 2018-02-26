@@ -1,0 +1,25 @@
+{
+  "name": "tconv",
+  "version": "1.0.0",
+  "description": "Fuzzy timestamp converter",
+  "main": "index.js",
+  "bin": {
+    "tconv": "./index.js"
+  },
+  "scripts": {
+    "test": "node ./test.js"
+  },
+  "keywords": [
+    "unixtime",
+    "date"
+  ],
+  "author": "haru067",
+  "license": "MIT",
+  "devDependencies": {
+    "child_process": "^1.0.2"
+  },
+  "dependencies": {
+    "luxon": "^0.5.3",
+    "minimist": "^1.2.0"
+  }
+}
